@@ -64,10 +64,12 @@ La aplicación estará disponible en `http://localhost:4200/`.
 
 ### Pantalla de Entrada
 ![PantalladeEntrada](screenshots/busqueda_cliente.jpeg)
+
 *Pantalla de entrada: Los usuarios pueden ingresar el tipo y número de documento para buscar un cliente.*
 
 ### Resumen del Cliente
 ![ResumendelCliente](screenshots/informacion_cliente.jpeg)
+
 *Resumen del cliente: Muestra la información del cliente encontrado.*
 
 ### Pruebas Unitarias
