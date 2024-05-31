@@ -1,27 +1,94 @@
-# CustomerInfoApp
+---
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.2.
+# Sistema de Gestión de Clientes
 
-## Development server
+![Java](https://img.shields.io/badge/Java-17-orange)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-2.7.0-brightgreen)
+![Maven](https://img.shields.io/badge/Maven-3.6.3-blue)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Descripción
 
-## Code scaffolding
+Este es un proyecto de sistema de gestión de clientes desarrollado en Angular. Permite a los usuarios buscar clientes por tipo y número de documento, y muestra un resumen de la información del cliente encontrado.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Funcionalidades
 
-## Build
+- Búsqueda de clientes por tipo y número de documento.
+- Visualización de la información del cliente encontrado.
+- Navegación entre la pantalla de entrada y el resumen del cliente.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Tecnologías Utilizadas
 
-## Running unit tests
+- Angular 18
+- Jasmine 5
+- Karma 6
+- Typescript 5
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Instalación y Ejecución
 
-## Running end-to-end tests
+### Prerrequisitos
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- Angular 18
 
-## Further help
+### Paso a Paso
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+1. **Clonar el repositorio:**
+
+   ```bash
+   git clone https://github.com/cysorianop/customer-info-app.git
+   cd customer-info-app
+   ```
+
+2. **IKnstala dependencias:**
+
+   ```bash
+   npm install
+   ```
+
+3. **Ejecutar la aplicación:**
+
+   ```bash
+   ng serve
+   ```
+
+La aplicación estará disponible en `http://localhost:4200/`.
+
+## Uso
+
+- Ingresa el tipo y número de documento del cliente que deseas buscar en la pantalla de entrada.
+- Haz clic en el botón "Buscar" para buscar el cliente.
+- Se mostrará un resumen del cliente si se encuentra.
+
+## Capturas de Pantalla
+
+### Pantalla de Entrada
+![Pantalla de Entrada](screenshots/busqueda_cliente.jpeg)
+*Pantalla de entrada: Los usuarios pueden ingresar el tipo y número de documento para buscar un cliente.*
+
+### Resumen del Cliente
+![Resumen del Cliente](screenshots/informacion_cliente.jpeg)
+*Resumen del cliente: Muestra la información del cliente encontrado.*
+
+### Pruebas Unitarias
+
+Para ejecutar las pruebas unitarias:
+
+```bash
+ng test
+```
+
+## Contribuir
+
+Si deseas contribuir a este proyecto, por favor sigue los siguientes pasos:
+
+1. Haz un fork del repositorio.
+2. Crea una nueva rama (`git checkout -b feature/nueva-funcionalidad`).
+3. Realiza los cambios necesarios y realiza commits (`git commit -m 'Añadir nueva funcionalidad'`).
+4. Sube los cambios a tu repositorio (`git push origin feature/nueva-funcionalidad`).
+5. Abre un Pull Request.
+
+## Licencia
+
+Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo `LICENSE` para más detalles.
+
+---
