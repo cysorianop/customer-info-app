@@ -1,0 +1,29 @@
+.btn-primary {
+  background-color: #0033a0; /* Color del botón activo */
+  border-color: #0033a0;
+  width: 100%;
+}
+
+.btn-primary:disabled {
+  background-color: #e0e0e0; /* Color del botón inactivo */
+  border-color: #e0e0e0;
+  color: #a0a0a0;
+}
+
+.btn-disabled {
+  cursor: not-allowed;
+}
+
+.card {
+  background-color: #f4fafb;
+  border: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.text-color {
+    color: #0033a0;
+}
+
+.text-color-campos {
+    color: #e0e0e0;
+}
