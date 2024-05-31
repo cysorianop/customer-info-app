@@ -2,9 +2,10 @@
 
 # Sistema de Gestión de Clientes
 
-![Java](https://img.shields.io/badge/Java-17-orange)
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-2.7.0-brightgreen)
-![Maven](https://img.shields.io/badge/Maven-3.6.3-blue)
+![Angular](https://img.shields.io/badge/Angular-18-red)
+![Jasmine](https://img.shields.io/badge/Jasmine-5-purple)
+![Karma](https://img.shields.io/badge/Karma-6-yellow)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-blue)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
 ## Descripción
@@ -62,11 +63,11 @@ La aplicación estará disponible en `http://localhost:4200/`.
 ## Capturas de Pantalla
 
 ### Pantalla de Entrada
-![Pantalla de Entrada](screenshots/busqueda_cliente.jpeg)
+![PantalladeEntrada](screenshots/busqueda_cliente.jpeg)
 *Pantalla de entrada: Los usuarios pueden ingresar el tipo y número de documento para buscar un cliente.*
 
 ### Resumen del Cliente
-![Resumen del Cliente](screenshots/informacion_cliente.jpeg)
+![ResumendelCliente](screenshots/informacion_cliente.jpeg)
 *Resumen del cliente: Muestra la información del cliente encontrado.*
 
 ### Pruebas Unitarias
